@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Hospital Management System</title>
+<script language="javascript">
+
+function hilight(cid){
+tdid=document.getElementById(cid);
+tdid.style.backgroundColor="red";
+}
+function normal(cid){
+tdid=document.getElementById(cid);
+tdid.style.backgroundColor="navy";
+}
+function showMast(cid){
+ifid=document.getElementById(cid);
+ifid.src="mastsub.html";
+}
+function showMngmnt(cid){
+ifid=document.getElementById(cid);
+ifid.src="Managementsub.html";
+}
+function showDetailsReport(cid){
+ifid=document.getElementById(cid);
+ifid.src="Detailsub.html";
+}
+function showSummaryReport(cid){
+ifid=document.getElementById(cid);
+ifid.src="Summarysub.html";
+}
+</script>
+</head>
+<body>
+<table width="100%">
+<tr height="25" bgcolor="navy" align="center">
+<td id="about" onmouseover="hilight('about')" onmouseout="normal('about')" style="border-radius:9px 9px 9px 9px"><font face="Comic Sans MS" color="white" size="3"><b>About</td>
+<td id="search" onmouseover="hilight('search')" onmouseout="normal('search')" style="border-radius:9px 9px 9px 9px"><font face="Comic Sans MS" color="white" size="3"><b>Search</td>
+<td id="contactus" onmouseover="hilight('contactus')" onmouseout="normal('contactus')" style="border-radius:9px 9px 9px 9px"><font face="Comic Sans MS" color="white" size="3"><b>Contact Us</td>
+<td id="master" onmouseover="hilight('master')" onmouseout="normal('master')" onclick="showMast('subMenuArea')" style="border-radius:9px 9px 9px 9px"><font face="Comic Sans MS" color="white" size="3"><b>Master</td>
+<td id="management" onmouseover="hilight('management')" onmouseout="normal('management')" onclick="showMngmnt('subMenuArea')" style="border-radius:9px 9px 9px 9px"><font face="Comic Sans MS" color="white" size="3"><b>Management</td>
+<td id="summaryreport" onmouseover="hilight('summaryreport')" onmouseout="normal('summaryreport')" onclick="showSummaryReport('subMenuArea')" style="border-radius:9px 9px 9px 9px"><font face="Comic Sans MS" color="white" size="3"><b>SummaryReport</td>
+<td id="detailreport" onmouseover="hilight('detailreport')" onmouseout="normal('detailreport')" onclick="showDetailsReport('subMenuArea')" style="border-radius:9px 9px 9px 9px"><font face="Comic Sans MS" color="white" size="3"><b>DetailReport</td>
+<td id="help" onmouseover="hilight('help')" onmouseout="normal('help')" onclick="showMast('subMenuArea')" style="border-radius:9px 9px 9px 9px"><font face="Comic Sans MS" color="white" size="3"><b>Help</td>
+</tr>
+</table>
+</body>
+</html>

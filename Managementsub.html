@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Hospital Management System</title>
+<script language="javascript">
+
+function hilight(cid){
+tdid=document.getElementById(cid);
+tdid.style.backgroundColor="red";
+}
+function normal(cid){
+tdid=document.getElementById(cid);
+tdid.style.backgroundColor="navy";
+}
+
+</script>
+</head>
+<body>
+<table><tr><td><b><U>Management:-</U></td></tr></table>
+<table width="70%" align="center">
+<tr><td id="patient" onmouseover="hilight('patient')" onmouseout="normal('patient')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="eHMS_Patientc.html" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Patient Profile</a></td></tr>
+<tr><td id="patientadmission" onmouseover="hilight('patientadmission')" onmouseout="normal('patientadmission')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="eHMS_PatientAdminc.jsp" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Patient Admission Profile</a></td></tr>
+<tr><td id="patientprogress" onmouseover="hilight('patientprogress')" onmouseout="normal('patientprogress')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="eHMS_PatientProgressc.jsp" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Patient Progress Profile</a></td></tr>
+<tr><td id="patientdischarge" onmouseover="hilight('patientdischarge')" onmouseout="normal('patientdischarge')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="eHMS_PatientDischargec.jsp" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Patient Discharge Profile</a></td></tr>
+<tr><td id="moneyreceipt" onmouseover="hilight('moneyreceipt')" onmouseout="normal('moneyreceipt')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="eHMS_MoneyReceiptc.jsp" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Money Receipt Profile</a></td></tr>
+<tr><td id="blood" onmouseover="hilight('blood')" onmouseout="normal('blood')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="eHMS_Bloodc.jsp" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Blood Profile</a></td></tr>
+<tr><td id="urine" onmouseover="hilight('urine')" onmouseout="normal('urine')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="eHMS_Urinec.jsp" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Urine Profile</a></td></tr>
+
+
+
+
+</table>
+</body>
+</html>

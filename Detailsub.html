@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Hospital Management System</title>
+<script language="javascript">
+
+function hilight(cid){
+tdid=document.getElementById(cid);
+tdid.style.backgroundColor="red";
+}
+function normal(cid){
+tdid=document.getElementById(cid);
+tdid.style.backgroundColor="navy";
+}
+
+</script>
+</head>
+<body>
+<table><tr><td><b><U>Detail Report:-</U></td></tr></table>
+<table align="center">
+<tr><td id="departmentsummaryreport" onmouseover="hilight('departmentsummaryreport')" onmouseout="normal('departmentsummaryreport')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="eHMS_ReportDepartmentc.jsp" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Department Info [Dept]</a></td></tr>
+<tr><td id="doctorsummaryreportbydoctor" onmouseover="hilight('doctorsummaryreportbydoctor')" onmouseout="normal('doctorsummaryreportbydoctor')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="RptDctrDctrc.jsp" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Doctor Info [Doctor]</a></td></tr>
+<tr><td id="doctorsummaryreportbydepartment" onmouseover="hilight('doctorsummaryreportbydepartment')" onmouseout="normal('doctorsummaryreportbydepartment')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="RptDctrsDeptc.jsp" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Doctor Info [Dept]</a></td></tr>
+<tr><td id="patientsummaryreportbyregdno" onmouseover="hilight('patientsummaryreportbyregdno')" onmouseout="normal('patientsummaryreportbyregdno')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="RptPtntRegdnoc.jsp" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Patient Info [Regd NO.]</a></td></tr>
+<tr><td id="patientsummaryreportbydtofregd" onmouseover="hilight('patientsummaryreportbydtofregd')" onmouseout="normal('patientsummaryreportbydtofregd')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="RptPtntDtOfRegdc.jsp" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Patient Info [Dt Of Regd NO.]</</a></td></tr>
+<tr><td id="patientadmissionsummaryreportbyregdno" onmouseover="hilight('patientadmissionsummaryreportbyregdno')" onmouseout="normal('patientadmissionsummaryreportbyregdno')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="RptPtntAdmsnRegdnoc.jsp" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Patient Admsn Info [Regd No.]</a></td></tr>
+<tr><td id="patientadmissionsummaryreportbydate" onmouseover="hilight('patientadmissionsummaryreportbydate')" onmouseout="normal('patientadmissionsummaryreportbydate')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="RptPtntAdmsnDatec.jsp" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Patient Admsn Info [Date]</a></td></tr>
+<tr><td id="patientadmissionsummaryreportbydept" onmouseover="hilight('patientadmissionsummaryreportbydept')" onmouseout="normal('patientadmissionsummaryreportbydept')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="RptPtntAdmsnDeptc.jsp" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Patient Admsn Info [Dept]</a></td></tr>
+<tr><td id="patientprogresssummaryreportbyregdno" onmouseover="hilight('patientprogresssummaryreportbyregdno')" onmouseout="normal('patientprogresssummaryreportbyregdno')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="RptPtntPrgsRegdnoc.jsp" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Patient Prgrs Info [Regd No.]</a></td></tr>
+<tr><td id="patientprogresssummaryreportbydoctor" onmouseover="hilight('patientprogresssummaryreportbydoctor')" onmouseout="normal('patientprogresssummaryreportbydoctor')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="RptPtntPrgsDctrc.jsp" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Patient Prgrs Info [Doctor]</a></td></tr>
+<tr><td id="patientdischargesummaryreportbyid" onmouseover="hilight('patientdischargesummaryreportbyid')" onmouseout="normal('patientdischargesummaryreportbyid')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="RptPtntDschrgIdc.jsp" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Patient Dschrg Info [Id]</a></td></tr>
+<tr><td id="patientdischargesummaryreportbydate" onmouseover="hilight('patientdischargesummaryreportbydate')" onmouseout="normal('patientdischargesummaryreportbydate')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="RptPtntDschrgDatec.jsp" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Patient Dschrg Info [Date]</a></td></tr>
+<tr><td id="patientdischargesummaryreportbydept" onmouseover="hilight('patientdischargesummaryreportbydept')" onmouseout="normal('patientdischargesummaryreportbydept')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="RptPtntDschrgDeptc.jsp" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Patient Dschrg Info [Dept]</a></td></tr>
+<tr><td id="bloodsummaryreportbyregdno" onmouseover="hilight('bloodsummaryreportbyregdno')" onmouseout="normal('bloodsummaryreportbyregdno')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="RptBloodRegdnoc.jsp" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Blood Info [Regd No.]</a></td></tr>
+<tr><td id="urinesummaryreportbyregdno" onmouseover="hilight('urinesummaryreportbyregdno')" onmouseout="normal('urinesummaryreportbyregdno')" style="border-radius:9px 9px 9px 9px" bgcolor="navy"><a href="RptUrineRegdnoc.jsp" style="text-decoration:none" target="_blank"><font face="System" color="white" size="3">&nbsp;&nbsp;Urine Info [Regd No.]</a></td></tr>
+</table>
+</body>
+</html>

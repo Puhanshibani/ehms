@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+		 <title>Transparent Login Form</title>
+		 <link rel="stylesheet" type="text/css" href="style2.css">
+		 <script language="javascript">
+function loginAsUsr(){
+window.location="hms_usermenu.html";
+}
+</script>
+
+
+
+	</head>
+    <body onload="disableBackButton()">
+	
+	    <div class="loginBox">
+		<img src=user.png class="user">
+		   <h1>Admin Authenticaton</h1>
+		       <form name="f1" action="AuthenticationS.jsp" method="POST">
+			   <p>Username</p>
+			   <input type="text" name="username" placeholder="Enter Username">
+			   <p>Password</p>
+			   <input type="password" name="password" placeholder="Enter Password">
+			   <input type="submit" name="" value="Login">
+			   <input type="reset" name="" value="Reset">
+			   <a href="hms_usermenu.html" style="display: inline-block;float: right;">Login as User</a>
+			   </form>
+		</div>
+		<br>
+
+	</body>
+</html>
